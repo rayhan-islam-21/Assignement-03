@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grocery Shop</title>
+    <!-- favicon -->
+    <link rel="icon" href="./images/logo-header.png" type="image/x-icon" />
+    <!-- Daisy ui -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- sora font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- output.css -->
+    <link href="./output.css" rel="stylesheet" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+
+    <style>
+      body {
+        font-family: "Sora", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="lg:container lg:mx-auto bg-gradient-to-t from-stone-100 to-red-700">
+      <!-- NavBar -->
+      <nav>
+        <div class="navbar lg:px-16flex justify-between items-center">
+          <div class="navbar-start flex-1 ">
+            <img
+              class="sm:flex xl:hidden lg:hidden md:flex max-w-fit"
+              src="./images/mobile-logo.png"
+              alt="mobile-logo"
+            />
+            <img
+              class="max-w-fit hidden lg:flex"
+              src="/images/logo-header.png"
+              alt="logo"
+            />
+          </div>
+          <!-- mobile -->
+          <div class="dropdown lg:hidden lg:flex-none">
+            <div tabindex="0" role="button" class="btn btn-ghost ">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            >
+              <li><a>Product</a></li>
+              <li><a>Service</a></li>
+              <li><a>Contact Us</a></li>
+            </ul>
+          </div>
+          <!-- desktop -->
+          <div class="navbar-end hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li><a>Product</a></li>
+              <li><a>Service</a></li>
+              <li><a>Contact Us</a></li>
+            </ul>
+            
+          </div>
+          <div class="navbar-end space-x-6 hidden lg:flex">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <a class="btn">Login</a>
+            <a class="btn">Register</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- main -->
+    <main></main>
+    <!-- footer -->
+    <footer></footer>
+  </body>
+</html>
