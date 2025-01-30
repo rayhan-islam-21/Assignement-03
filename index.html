@@ -29,7 +29,8 @@
     />
 
     <style>
-      html,body {
+      html,
+      body {
         font-family: "Sora", sans-serif;
         margin: 0;
         padding: 0;
@@ -39,11 +40,13 @@
   </head>
   <body>
     <!-- header -->
-    <header class="md:container md:mx-auto bg-gradient-to-t from-stone-300 to-white">
+    <header
+      class="md:container md:mx-auto bg-gradient-to-t from-stone-300 to-white"
+    >
       <!-- NavBar -->
       <nav class="max-w-2/3 mx-auto mb-8 lg:mb-36">
         <div class="navbar lg:px-16flex justify-between items-center">
-          <div class="navbar-start flex-1 ">
+          <div class="navbar-start flex-1">
             <img
               class="sm:flex xl:hidden lg:hidden md:flex max-w-fit"
               src="./images/mobile-logo.png"
@@ -56,8 +59,8 @@
             />
           </div>
           <!-- mobile -->
-          <div class=" lg:hidden lg:flex-none">
-            <div tabindex="0" role="button" class="btn btn-ghost ">
+          <div class="lg:hidden lg:flex-none">
+            <div tabindex="0" role="button" class="btn btn-ghost">
               <i class="fa-solid fa-bars"></i>
             </div>
           </div>
@@ -68,34 +71,122 @@
               <li><a>Service</a></li>
               <li><a>Contact Us</a></li>
             </ul>
-            
           </div>
           <div class="navbar-end space-x-8 hidden lg:flex">
             <i class="fa-solid fa-magnifying-glass"></i>
             <i class="fa-solid fa-cart-shopping"></i>
-            <a class="btn px-12  btn-outline btn-success  hover:text-black">Login</a>
-            <a class="btn px-12  bg-[#179800] border-0 text-white hover:text-black">Register</a>
+            <a class="btn px-12 btn-outline btn-success hover:text-black"
+              >Login</a
+            >
+            <a
+              class="btn px-12 bg-[#179800] border-0 text-white hover:text-black"
+              >Register</a
+            >
           </div>
         </div>
       </nav>
-      <br>
+      <br />
       <!-- hero -->
-       <div class=" container mx-auto">
+      <div class="container mx-auto">
         <!-- text -->
-         <div class="text-center flex flex-col justify-center items-center lg:space-y-3">
-          <h1 class="text-[2rem] mx-auto lg:font-bold lg:leading-32   text-center lg:text-[3.5rem] font-semibold">Freshness <span class="text-[#179800]">You Can <br class=" md:hidden lg:flex hidden">
-            Count On</span>,Prices <br class="md:hidden lg:hidden"> You’ll Love!</h1>
-            <br>
-            <p class=" text-sm lg:text-xl font-light lg:font-normal text-[#111111] leading-12 lg:leading-16 opacity-60 text-center lg:w-2/3">Shop your daily essentials at unbeatable <br class="lg:hidden flex p-4"> prices. From fresh produce to pantry <br>  staples, we’ve got you covered every day!</p>
-         </div>
-         <!-- img -->
-          <div class="flex justify-center items-center">
-            <img class="w-fit" src="./images/hero-vegetables.png" alt="vegatble">
-          </div>
-       </div>
+        <div
+          class="text-center flex flex-col justify-center items-center lg:space-y-3"
+        >
+          <h1
+            class="text-[2rem] mx-auto lg:font-bold lg:leading-32 text-center lg:text-[3.5rem] font-semibold"
+          >
+            Freshness
+            <span class="text-[#179800]"
+              >You Can <br class="md:hidden lg:flex hidden" />
+              Count On</span
+            >,Prices <br class="md:hidden lg:hidden" />
+            You’ll Love!
+          </h1>
+          <br />
+          <p
+            class="text-sm lg:text-xl font-light lg:font-normal text-[#111111] leading-12 lg:leading-16 opacity-60 text-center lg:w-2/3"
+          >
+            Shop your daily essentials at unbeatable
+            <br class="lg:hidden flex p-4" />
+            prices. From fresh produce to pantry <br />
+            staples, we’ve got you covered every day!
+          </p>
+        </div>
+        <!-- img -->
+        <div class="flex justify-center items-center">
+          <img
+            class="w-fit"
+            src="./images/hero-vegetables.png"
+            alt="vegatble"
+          />
+        </div>
+      </div>
     </header>
     <!-- main -->
-    <main></main>
+    <main>
+      <!-- Service Section -->
+      <section
+        class="lg:container lg:mx-auto lg:py-44 lg:px-32  mx-auto "
+      >
+      
+      
+       
+        <div >
+          <div class="lg:container lg:mx-auto lg:mb-8 m-8">
+            <h1 class=" text-2xl text-center lg:text-start lg:text-4xl font-bold text-[#179800]">Services</h1>
+          </div>
+          <!-- card start -->
+           <div class="flex flex-col lg:flex-row justify-between space-y-6 lg:space-y-0 lg:space-x-16 items-center">
+            <div class="card bg-[#EFEBE3] lg:w-96 w-72">
+              <figure class="px-10 pt-10">
+                <div class="w-40 h-40 flex justify-center items-center rounded-full bg-white">
+                  <img
+                  src="./images/service.png"
+                  alt="Shoes"
+                  class="rounded-xl"
+                />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title">24/7 Services</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+              </div>
+            </div>
+            <!-- 2nd card -->
+            <div class="card bg-[#EFEBE3] lg:w-96 w-72">
+              <figure class="px-10 pt-10">
+                <div class="w-40 h-40 flex justify-center items-center rounded-full bg-white">
+                  <img
+                  src="./images/delivery.png"
+                  alt="Shoes"
+                  class="rounded-xl"
+                />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title">24/7 Services</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+              </div>
+            </div>
+            <!-- 3rd -->
+            <div class="card bg-[#EFEBE3] lg:w-96 w-72">
+              <figure class="px-10 pt-10">
+                <div class="w-40 h-40 flex justify-center items-center rounded-full bg-white">
+                  <img
+                  src="./images/healthy.png"
+                  alt="Shoes"
+                  class="rounded-xl"
+                />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title">24/7 Services</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+              </div>
+            </div>
+           </div>
+          
+          <!-- end card -->
+        </div>
+      </section>
+    </main>
     <!-- footer -->
     <footer></footer>
   </body>
