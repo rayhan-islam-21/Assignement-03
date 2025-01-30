@@ -39,9 +39,9 @@
   </head>
   <body>
     <!-- header -->
-    <header class="lg:container lg:mx-auto bg-gradient-to-t from-stone-700 to-white">
+    <header class="md:container md:mx-auto bg-gradient-to-t from-stone-300 to-white">
       <!-- NavBar -->
-      <nav>
+      <nav class="max-w-2/3 mx-auto mb-8 lg:mb-36">
         <div class="navbar lg:px-16flex justify-between items-center">
           <div class="navbar-start flex-1 ">
             <img
@@ -70,14 +70,29 @@
             </ul>
             
           </div>
-          <div class="navbar-end space-x-6 hidden lg:flex">
+          <div class="navbar-end space-x-8 hidden lg:flex">
             <i class="fa-solid fa-magnifying-glass"></i>
             <i class="fa-solid fa-cart-shopping"></i>
-            <a class="btn">Login</a>
-            <a class="btn">Register</a>
+            <a class="btn px-12  btn-outline btn-success  hover:text-black">Login</a>
+            <a class="btn px-12  bg-[#179800] border-0 text-white hover:text-black">Register</a>
           </div>
         </div>
       </nav>
+      <br>
+      <!-- hero -->
+       <div class=" container mx-auto">
+        <!-- text -->
+         <div class="text-center flex flex-col justify-center items-center lg:space-y-3">
+          <h1 class="text-[2rem] mx-auto lg:font-bold lg:leading-32   text-center lg:text-[3.5rem] font-semibold">Freshness <span class="text-[#179800]">You Can <br class=" md:hidden lg:flex hidden">
+            Count On</span>,Prices <br class="md:hidden lg:hidden"> You’ll Love!</h1>
+            <br>
+            <p class=" text-sm lg:text-xl font-light lg:font-normal text-[#111111] leading-12 lg:leading-16 opacity-60 text-center lg:w-2/3">Shop your daily essentials at unbeatable <br class="lg:hidden flex p-4"> prices. From fresh produce to pantry <br>  staples, we’ve got you covered every day!</p>
+         </div>
+         <!-- img -->
+          <div class="flex justify-center items-center">
+            <img class="w-fit" src="./images/hero-vegetables.png" alt="vegatble">
+          </div>
+       </div>
     </header>
     <!-- main -->
     <main></main>
